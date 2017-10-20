@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context="bluehackatlanta.ibm_bluehackatlanta_signtranslate.SignToText">
 
+    <Button
+        android:id="@+id/signTranslate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="translate"
+        android:text="@string/translate"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="54dp" />
 </android.support.constraint.ConstraintLayout>

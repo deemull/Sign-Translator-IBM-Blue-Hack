@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="bluehackatlanta.ibm_bluehackatlanta_signtranslate.MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/pic_to_txt"
@@ -23,15 +14,23 @@
         android:onClick="openSigntoText"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="82dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,UnknownId"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
 
     <Button
         android:id="@+id/txt_to_pic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="openTextoSign"
         android:text="@string/text_to_sign"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="172dp"
-        tools:ignore="MissingConstraints" />
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/pic_to_txt"
+        android:layout_alignLeft="@+id/pic_to_txt"
+        android:layout_alignStart="@+id/pic_to_txt" />
 
-</LinearLayout>
+</RelativeLayout>

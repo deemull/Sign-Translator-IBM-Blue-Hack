@@ -18,8 +18,15 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //Opens the Sign to Text screen.
     public void openSigntoText(View view){
         Intent intent = new Intent(this, SignToText.class);
         startActivity(intent);
+    }
+
+    //Opens the Text to Sign screen.
+    public void openTextoSign(View view){
+        Intent i = new Intent(this, TextToSign.class);
+        startActivity(i);
     }
 }
