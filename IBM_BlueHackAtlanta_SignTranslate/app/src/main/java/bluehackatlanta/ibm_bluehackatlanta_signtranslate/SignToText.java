@@ -1,0 +1,13 @@
+package bluehackatlanta.ibm_bluehackatlanta_signtranslate;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class SignToText extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_sign_to_text);
+    }
+}

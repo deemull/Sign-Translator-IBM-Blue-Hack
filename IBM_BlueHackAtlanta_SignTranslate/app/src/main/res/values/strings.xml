@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">IBM_BlueHackAtlanta_SignTranslate</string>
+    <string name="sign_to_text">Sign to Text</string>
+    <string name="text_to_sign">Text To Sign</string>
 </resources>
