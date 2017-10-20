@@ -23,14 +23,22 @@
         android:id="@+id/txt_to_pic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
         android:onClick="openTextoSign"
-        android:text="@string/text_to_sign"
+        android:text="@string/language_translator"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="172dp"
-        android:layout_marginTop="19dp"
         android:layout_below="@+id/pic_to_txt"
-        android:layout_alignLeft="@+id/pic_to_txt"
-        android:layout_alignStart="@+id/pic_to_txt" />
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/tone_analyzer"
+        android:layout_below="@+id/txt_to_pic"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

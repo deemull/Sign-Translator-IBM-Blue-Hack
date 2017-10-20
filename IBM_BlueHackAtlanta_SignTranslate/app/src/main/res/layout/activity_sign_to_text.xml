@@ -12,7 +12,24 @@
         android:layout_height="wrap_content"
         android:onClick="translate"
         android:text="@string/translate"
+        android:visibility="invisible"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="54dp" />
+        tools:layout_editor_absoluteY="54dp"
+        android:layout_below="@+id/answer"
+        android:layout_toRightOf="@+id/answer"
+        android:layout_toEndOf="@+id/answer"
+        android:layout_marginLeft="115dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="115dp" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="110dp"
+        android:layout_height="67dp"
+        android:text="@string/y"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="156dp"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>

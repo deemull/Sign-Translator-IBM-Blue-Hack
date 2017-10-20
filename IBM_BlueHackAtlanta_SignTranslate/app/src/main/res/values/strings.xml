@@ -4,4 +4,8 @@
     <string name="text_to_sign">Text To Sign</string>
     <string name="welcome">Welcome</string>
     <string name="translate">Translate</string>
+    <string name="translate_2">Translate</string>
+    <string name="y">y</string>
+    <string name="language_translator">Language Translator</string>
+    <string name="tone_analyzer">Tone Analyzer</string>
 </resources>
